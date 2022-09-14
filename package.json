@@ -11,8 +11,7 @@
     "deploy": "git push heroku",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && npm run deploy",
     "logs:prod": "heroku logs --tail",
-    "lint": "eslint .",
-    "start-prod": "npm run build:ui && npm start"
+    "lint": "eslint ."
   },
   "author": "Misha",
   "license": "ISC",

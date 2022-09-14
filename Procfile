@@ -1,1 +1,1 @@
-web: npm run start-prod
+web: "cd ./fronend && npm run build && cp -r build ../ && cd .. && npm start"
