@@ -1,1 +1,5 @@
-web: "cd ./frontend && npm install && npm run build && cp -r build ../ && cd .. && npm start"
+web: cd ./frontend
+web: npm install 
+web: npm run build 
+web: cp -r build ../ 
+web: cd .. && npm start
