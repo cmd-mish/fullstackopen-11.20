@@ -1,1 +1,1 @@
-web: "cd ./fronend && npm run build && cp -r build ../ && cd .. && npm start"
+web: "cd ./fronend && npm install && npm run build && cp -r build ../ && cd .. && npm start"
