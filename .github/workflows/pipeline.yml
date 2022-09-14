@@ -29,3 +29,8 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "peaceful-scrubland-04612"
           heroku_email: "popovmik@arcada.fi"
+      - name: Check if the app is up
+        uses: jtalk/url-health-check-action@v2
+        with:
+          url: https://peaceful-scrubland-04612.herokuapp.com/info
+      
